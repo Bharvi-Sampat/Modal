@@ -8,14 +8,14 @@ $.getJSON("https://api.ipify.org?format=json", function(data) {
         console.log(data.ip);
     })
 
-// jQuery IP Address extractor
-$.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=42a2876607b8431f86945e8f7f22c8d2", function(data) {
-    console.log(data);
-})
+// // jQuery IP Address extractor
+// $.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=42a2876607b8431f86945e8f7f22c8d2", function(data) {
+//     console.log(data);
+// })
   
-  var url = "https://ipgeolocation.abstractapi.com/v1/?api_key=42a2876607b8431f86945e8f7f22c8d2"
+//   var url = "https://ipgeolocation.abstractapi.com/v1/?api_key=42a2876607b8431f86945e8f7f22c8d2"
   
-httpGetAsync(url)
+// httpGetAsync(url)
 
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
